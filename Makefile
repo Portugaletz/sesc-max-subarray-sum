@@ -1,5 +1,5 @@
 run:quack
 	./quack
 quack:duck.c
-	gcc duck.c -o quack
+	gcc -std=c99 duck.c -o quack
 build:quack
